@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/showChat"
+        android:icon="@drawable/chat"
+        android:title="Show Chat"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/showStream"
+        android:icon="@drawable/stream"
+        android:title="Show Stream"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/refresh"
+        android:title="Refresh Chat"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/rotation"
+        android:title="Rotation Unlocked" />
+
+    <item
+        android:id="@+id/alternate"
+        android:enabled="false"
+        android:title="Alternate Main Window" />
+
+    <item
+        android:id="@+id/openBrowser"
+        android:enabled="false"
+        android:title="Open Stream on Browser" />
+
+    <item
+        android:id="@+id/streamerChannel"
+        android:enabled="false"
+        android:title="Go to Channel" />
+
+    <item
+        android:id="@+id/clearHistory"
+        android:title="Clear History" />
+</menu>
